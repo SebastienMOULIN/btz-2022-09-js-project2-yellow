@@ -1,0 +1,26 @@
+/* Titles font */
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+/* Paragraphs font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*For beer's tittle*/
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #d88c9a;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+  font-family: "Anton";
+}
+
+h2 {
+  -webkit-text-stroke: 1px black;
+  font-family: "Anton";
+}
